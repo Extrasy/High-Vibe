@@ -25,7 +25,7 @@ class InformationModal extends React.Component {
         this.state = {
             description: null,
             flavors: [],
-            effects: []
+            effects: null
         }
     }
 
@@ -37,6 +37,7 @@ class InformationModal extends React.Component {
                 </Modal.Header>
                 <Modal.Body>
                     <p>{this.state.description || ""}</p>
+                    <p>{this.state.effects || ""}</p>
                 </Modal.Body>
                 <Modal.Footer>
                     <Button variant="secondary" onClick={this.handleClose}>Close</Button>

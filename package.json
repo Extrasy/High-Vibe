@@ -32,5 +32,17 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "`npm start`",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Extrasy/High-Vibe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Extrasy/High-Vibe/issues"
+  },
+  "homepage": "https://github.com/Extrasy/High-Vibe#readme"
 }
